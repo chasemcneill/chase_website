@@ -6,8 +6,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --color-primary:    #05bef1;   /* blue */
-  --color-secondary:  #425a60;   /* Purple */
+  --color-primary:    #077a9a;   /* blue */
+  --color-secondary:  #02323e;   /* Purple */
   --color-accent:     #49453a;   /* Grey */
   --color-bg:         #ffffff;   /* White */
   --color-surface:    #ffffff;
