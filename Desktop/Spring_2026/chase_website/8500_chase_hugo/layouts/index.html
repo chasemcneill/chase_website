@@ -2,7 +2,8 @@
 
 <section class="hero">
   <div class="hero-inner">
-    <h1>Chase McNeill Professional Development Website</h1>
+    <img src="/images/chase_mcneill_hugo_image.jpg" alt="Chase McNeill" style="max-width:300px; display:block; margin:1rem auto;">
+    <h1>Chase Dylan McNeill</h1>
     <p class="hero-subtitle">Hugo website made for HIST 8500</p>
     <p class="hero-meta">Clemson University &middot; April 29, 2026</p>
   </div>
@@ -16,12 +17,12 @@
   <div class="stats-bar">
     {{ $issues := where .Site.RegularPages "Section" "issues" }}
     <div class="stat">
-      <span class="stat-number">{{ len $issues }}</span>
-      <span class="stat-label">Issues in Collection</span>
+      <span class="stat-number">2</span>
+      <span class="stat-label">Publications</span>
     </div>
     <div class="stat">
-      <span class="stat-number">2026</span>
-      <span class="stat-label">Year of Publication</span>
+      <span class="stat-number">4</span>
+      <span class="stat-label">Conferences Presented at</span>
     </div>
     <div class="stat">
       <span class="stat-number">HIST 8500</span>
@@ -30,36 +31,7 @@
   </div>
 </section>
 
-<section class="featured container">
-  <h2>Browse the Collection</h2>
-  <p>Explore digitized issues from Volume 1 of <em>The Woman's Journal</em>, each with full bibliographic metadata and links to the Internet Archive.</p>
 
-  {{ $issues := where .Site.RegularPages "Section" "issues" }}
-  {{ $issues = sort $issues "Date" "asc" }}
-  <div class="issue-grid">
-    {{ range $issues }}
-    <div class="issue-card">
-      <div class="issue-card-header">
-        <span class="issue-vol-num">Vol. {{ .Params.volume }}, No. {{ .Params.issue }}</span>
-        <time class="issue-date" datetime="{{ .Date.Format "2006-01-02" }}">
-          {{ .Date.Format "January 2, 2006" }}
-        </time>
-      </div>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <div class="topic-tags">
-        {{ range .Params.topics }}
-        <span class="tag">{{ . }}</span>
-        {{ end }}
-      </div>
-      <a href="{{ .RelPermalink }}" class="read-more">View Issue &rarr;</a>
-    </div>
-    {{ end }}
-  </div>
-
-  <div class="browse-cta">
-    <a href="/issues/" class="btn btn-primary">Browse All Issues</a>
-  </div>
-</section>
 
 <section class="about-snippet container">
   <h2>About This Project</h2>

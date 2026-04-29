@@ -1,0 +1,68 @@
+{{ define "main" }}
+
+<div class="container">
+  <article class="issue-single">
+
+    <header class="issue-header">
+      <div class="breadcrumb">
+        <a href="/failure_journals/">Failure Journals</a> &rsaquo; {{ .Title }}
+      </div>
+      <h1 class="issue-title">{{ .Title }}</h1>
+    </header>
+
+    <section class="metadata-block pub-info">
+      <h2 class="metadata-heading">Journal Information</h2>
+      <dl class="metadata-grid">
+        <div class="metadata-row">
+          <dt>Author</dt>
+          <dd>{{ .Params.author }}</dd>
+        </div>
+        <div class="metadata-row">
+          <dt>Date</dt>
+          <dd>
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          </dd>
+        </div>
+        <div class="metadata-row">
+          <dt>Status</dt>
+          <dd>
+            <span class="status-badge status-{{ .Params.digitization_status }}">
+              {{ .Params.digitization_status | title }}
+            </span>
+          </dd>
+        </div>
+      </dl>
+    </section>
+
+    {{ with .Params.topics }}
+    <section class="metadata-block topics-block">
+      <h2 class="metadata-heading">Topics</h2>
+      <div class="topic-tags topic-tags-large">
+        {{ range . }}
+        <span class="tag">{{ . }}</span>
+        {{ end }}
+      </div>
+    </section>
+    {{ end }}
+
+    {{ with .Params.archive_url }}
+    <section class="metadata-block archive-block">
+      <h2 class="metadata-heading">Journal File</h2>
+      <p>The full journal entry is available on GitHub.</p>
+      <a href="{{ . }}" class="btn btn-archive btn-large" target="_blank" rel="noopener">
+        View Journal on GitHub &rarr;
+      </a>
+    </section>
+    {{ end }}
+
+    <section class="issue-content">
+      <h2 class="metadata-heading">About This Entry</h2>
+      <div class="content-body">
+        {{ .Content }}
+      </div>
+    </section>
+
+  </article>
+</div>
+
+{{ end }}

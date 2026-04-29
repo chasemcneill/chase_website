@@ -1,6 +1,9 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = "Chase McNeill Professional Development Website"
+title = "Chase Dylan McNeill"
+
+[markup.goldmark.renderer]
+  unsafe = true
 
 [menu]
   [[menu.main]]
@@ -8,14 +11,23 @@ title = "Chase McNeill Professional Development Website"
     url = "/"
     weight = 1
   [[menu.main]]
-    name = "Issues"
-    url = "/issues/"
-    weight = 3
-  [[menu.main]]
-    name = "Analysis"
-    url = "/analysis/"
+    name = "CV"
+    url = "/cv/"
     weight = 2
+  [[menu.main]]
+    name = "Worksheets"
+    url = "/worksheets/"
+    weight = 4
   [[menu.main]]
     name = "About"
     url = "/about/"
-    weight = 4
+    weight = 6
+  [[menu.main]]
+    name = "Failure Journal"
+    url = "/failure_journals/"
+    weight = 5
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 3
+  

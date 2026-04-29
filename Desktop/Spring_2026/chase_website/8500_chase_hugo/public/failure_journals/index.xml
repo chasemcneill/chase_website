@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Failure Journals on Chase Dylan McNeill</title>
+    <link>http://localhost:1313/failure_journals/</link>
+    <description>Recent content in Failure Journals on Chase Dylan McNeill</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/failure_journals/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Failure Journal #8</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_8/</link>
+      <pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_8/</guid>
+      <description>&lt;p&gt;Maps and Geographic Data in R&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #7</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_7/</link>
+      <pubDate>Mon, 20 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_7/</guid>
+      <description>&lt;p&gt;Text Analysis II: Topic Modeling&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #6</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_6/</link>
+      <pubDate>Mon, 13 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_6/</guid>
+      <description>&lt;p&gt;Text Analysis I: Tokenization, Stop Words, Word Frequency, and TFIDF&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #5</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_5/</link>
+      <pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_5/</guid>
+      <description>&lt;p&gt;Data Visualization with ggplot and the Grammar of Graphics&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #4</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_4/</link>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_4/</guid>
+      <description>&lt;p&gt;Advanced Data Manipulation&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #3</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_3/</link>
+      <pubDate>Mon, 02 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_3/</guid>
+      <description>&lt;p&gt;Information as Data, Tidy Data Principles&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #2</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_2/</link>
+      <pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_2/</guid>
+      <description>&lt;p&gt;Loops, Conditionals, and Functions in R&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Failure Journal #1</title>
+      <link>http://localhost:1313/failure_journals/failure_journal_1/</link>
+      <pubDate>Mon, 02 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/failure_journals/failure_journal_1/</guid>
+      <description>&lt;p&gt;Data Structures in R (vectors, data frames, lists)&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

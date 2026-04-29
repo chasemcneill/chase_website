@@ -1,20 +1,20 @@
 /* ============================================================
-   The Woman's Journal Digital Archive — Stylesheet
+   Chase McNeill — Stylesheet
    ============================================================ */
 
 /* --- Reset & Base ----------------------------------------- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-  --color-primary:    #7b2d2d;   /* deep red — suffrage-era palette */
-  --color-secondary:  #4a3728;   /* dark brown */
-  --color-accent:     #c8a96e;   /* warm gold */
-  --color-bg:         #faf8f4;   /* warm off-white like newsprint */
+  --color-primary:    #05bef1;   /* blue */
+  --color-secondary:  #425a60;   /* Purple */
+  --color-accent:     #49453a;   /* Grey */
+  --color-bg:         #ffffff;   /* White */
   --color-surface:    #ffffff;
   --color-border:     #d9d0c1;
   --color-text:       #2c2416;
-  --color-text-muted: #6b5f4e;
-  --color-archive:    #1a5276;   /* deep blue for archive links */
+  --color-text-muted: #49453a;
+  --color-archive:    #1e00ff;   /* blue for archive links */
 
   --font-serif:  Georgia, 'Times New Roman', serif;
   --font-sans:   'Helvetica Neue', Arial, sans-serif;

@@ -3,22 +3,17 @@ title: "About"
 date: 2026-04-29
 ---
 
-## About *Chase McNeill*
+## About Chase McNeill
 
-* Chase McNeill is a second-year History Master's candidate at Clemson University. Chase received his BA in History and Political Science from the University of North Carolina at Chapel Hill. His research focuses on relations between Latin America and the United States, especially between Cuba and the US. 
+Chase McNeill is a second-year History Master's student and Teaching Assistant at Clemson University. At Clemson, McNeill's Master’s thesis, titled “The Divergence in Masculinity: Northern and Southern Masculinity during the Spanish-American War,” centers around masculinity during the Spanish-American War. Prior to Clemson, McNeill studied as an undergraduate at University of North Carolina at Chapel Hill, where his love for Latin American History first developed, taking a class titled “Counterinsurgencies in Latin America.” This class solidified his interest and choice for this field to be his major concentration. McNeill's love for Cuba and United States relations became concrete in my final history class at UNC, “History of Cuba” with the great Dr. Louis Perez Jr, who encouraged me to continue to graduate school. His senior thesis at UNC, titled “The Docile Peasantry: Che Guevara’s Failure in Bolivia,” directed under Dr. Miguel La Serna, explores how Che Guevara’s ideology and actions formed during his original travels in Latin America, in his youth, resulted in Che’s failure to start a revolution in Bolivia successfully. This paper was presented at the 2024 Macksey Symposium at Johns Hopkins, and a shortened version is published in The Macksey Journal’s Fifth Volume.
 
 Chase is currently finishing his Master's thesis on masculinity during the Spanish-American War titled "The Divergence in Masculinity: Northern and Southern Masculinity during the Spanish-American War."
 
-## About This Digital Project
+## About This Website
 
-This site is a teaching demonstration for exploring how digital humanists use structured metadata to build browsable archives from historical primary sources. The metadata represented here is drawn from the digitized holdings of the Internet Archive, which has preserved hundreds of issues of *The Woman's Journal*.
+This site demonstrates the different techniques and lessons learned during the Spring Semester in History 8500: Methods in Digital History at Clemson University. The website incorporates the sections involving coding in R, with the inclusion of classwork consisting of worksheets and failure journals. Also, the prospective website includes professional information and work done by Chase McNeill in his time as both an undergraduate and graduate student. 
 
-The project demonstrates:
-- **Structured front matter** as a way to encode rich bibliographic metadata
-- **Hugo templates** as a mechanism for transforming metadata into readable web pages
-- **Digital archive workflows** connecting catalog records to digitized objects
 
-Full issue transcriptions and page images are available through the Internet Archive links on each issue page.
 
 ## Project Credits
 

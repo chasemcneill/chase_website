@@ -5,7 +5,7 @@
     {{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
   </header>
   <ul class="page-list">
-    {{ range .Pages }}
+    {{ range .Pages.ByDate }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       <span class="page-list-date">{{ .Date.Format "January 2, 2006" }}</span>
