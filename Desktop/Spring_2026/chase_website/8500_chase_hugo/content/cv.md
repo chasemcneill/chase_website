@@ -11,12 +11,12 @@ date: 2026-04-29
 
 ## Clemson University – Master of Arts in History, Summer 2026
 - Teaching Assistant:
-  - HIST 1730 - The West and the World II, Fall 2024
-  - HIST 1930 - Modern World History, Spring 2025
-  - GEOG 1030 - World Regional Geography, Fall 2025
-  - HIST 1730 - The West and the World II, Spring 2026
+  - HIST 1730 - The West and the World II, Fall 2024.
+  - HIST 1930 - Modern World History, Spring 2025.
+  - GEOG 1030 - World Regional Geography, Fall 2025.
+  - HIST 1730 - The West and the World II, Spring 2026.
 - Presented at UNC Charlotte's Graduate History Association's 38th Annual Forum.
-- MA Thesis: The Divergence in Masculinity: Northern and Southern Masculinity during the Spanish-American War
+- MA Thesis: The Divergence in Masculinity: Northern and Southern Masculinity during the Spanish-American War.
 
 ## University of North Carolina Chapel Hill - Bachelor of Arts: History and Political Science, Spring 2024
 - Presented at the 2022 PIT Undergraduate Conference and published in the PIT Journal's Cycle 10, 2022, as the work, "School's Out: Have Charter Schools Succeeded?" https://pitjournal.unc.edu/2023/03/22/schools-out-have-charter-schools-succeeded/
@@ -38,4 +38,4 @@ date: 2026-04-29
 - Proficient in the coding language R.
 - Intermediate in the coding language Python.
 - Proficient in GIS.
-- Qualtrics
+- Qualtrics.
