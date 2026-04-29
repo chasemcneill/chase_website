@@ -14,7 +14,7 @@
   --color-border:     #d9d0c1;
   --color-text:       #2c2416;
   --color-text-muted: #49453a;
-  --color-archive:    #1e00ff;   /* blue for archive links */
+  --color-archive:    #077a9a;   /* blue for archive links */
 
   --font-serif:  Georgia, 'Times New Roman', serif;
   --font-sans:   'Helvetica Neue', Arial, sans-serif;
@@ -250,58 +250,10 @@ ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
 }
 
 /* Simple color cycling for visual variety */
-.tag:nth-child(3n+1) { background-color: #e8f0f7; border-color: #b8d0e8; color: #1a3a5c; }
-.tag:nth-child(3n+2) { background-color: #f0ebe0; border-color: #d4c4a0; color: #4a3728; }
-.tag:nth-child(3n+3) { background-color: #f5e8e8; border-color: #d4a8a8; color: #7b2d2d; }
+.tag:nth-child(3n+1) { background-color: #f6f6f7; border-color: #000000; color: #0c4481; }
+.tag:nth-child(3n+2) { background-color: #f6f6f7; border-color: #000000; color: #02340e; }
+.tag:nth-child(3n+3) { background-color: #f6f6f7; border-color: #000000; color: #7b2d2d; }
 
-/* --- Homepage: Issue Grid --------------------------------- */
-.featured { margin-top: 1rem; }
-.featured h2 { font-size: 1.5rem; margin-bottom: 0.5rem; }
-
-.issue-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 1.25rem;
-  margin: 1.5rem 0;
-}
-
-.issue-card {
-  background: var(--color-surface);
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius);
-  padding: 1.25rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-  transition: box-shadow 0.15s;
-}
-.issue-card:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.08); }
-
-.issue-card-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  font-family: var(--font-sans);
-  font-size: 0.775rem;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.issue-card h3 { font-size: 0.95rem; margin-bottom: 0; }
-.issue-card h3 a { text-decoration: none; color: var(--color-primary); }
-.issue-card h3 a:hover { text-decoration: underline; }
-
-.read-more {
-  margin-top: auto;
-  font-family: var(--font-sans);
-  font-size: 0.8rem;
-  font-weight: 600;
-  text-decoration: none;
-  color: var(--color-primary);
-}
-
-.browse-cta { text-align: center; margin-top: 1.5rem; }
 
 /* --- About snippet ---------------------------------------- */
 .about-snippet {
@@ -489,7 +441,7 @@ ul, ol { padding-left: 1.5rem; margin-bottom: 1rem; }
 }
 .status-complete {
   background-color: #d4edda;
-  color: #155724;
+  color: #02323e;
   border: 1px solid #c3e6cb;
 }
 
