@@ -1,13 +1,13 @@
 ---
 title: "About"
-date: 2024-01-01
+date: 2026-04-29
 ---
 
-## About *The Woman's Journal*
+## About *Chase McNeill*
 
-*The Woman's Journal* was a weekly newspaper published in Boston, Massachusetts from January 8, 1870 to 1931. It was founded by Lucy Stone and her husband Henry B. Blackwell as the official organ of the American Woman Suffrage Association (AWSA). The paper covered suffrage campaigns, legislative developments, women in the professions, labor issues, and international women's rights movements.
+* Chase McNeill is a second-year History Master's candidate at Clemson University. Chase received his BA in History and Political Science from the University of North Carolina at Chapel Hill. His research focuses on relations between Latin America and the United States, especially between Cuba and the US. 
 
-Lucy Stone, one of the foremost orators of the abolitionist and suffrage movements, served as editor alongside her husband for much of the paper's early history. The journal stood apart from other suffrage publications in its moderate, pragmatic approach—working state by state toward women's enfranchisement rather than pursuing a federal constitutional amendment exclusively.
+Chase is currently finishing his Master's thesis on masculinity during the Spanish-American War titled "The Divergence in Masculinity: Northern and Southern Masculinity during the Spanish-American War."
 
 ## About This Digital Project
 
@@ -22,4 +22,4 @@ Full issue transcriptions and page images are available through the Internet Arc
 
 ## Project Credits
 
-Built with [Hugo](https://gohugo.io/) as a demonstration for HIST 8500: Digital Methods I, Clemson University.
+Built with [Hugo](https://gohugo.io/) as an assignment for HIST 8500: Digital Methods I, Clemson University.
